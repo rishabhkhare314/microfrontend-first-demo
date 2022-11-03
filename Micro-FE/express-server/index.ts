@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+// import fetch from "node-fetch";
 import express from "express";
 const Products = require("./products.json");
 const app = express();
@@ -44,9 +44,9 @@ app.get("/get-cart", (req, res) => {
 app.post("/add-cart", async (req, res) => {
   console.log("---4-4-4--4-44");
   try {
-    const z = await fetch("https://dummyjson.com/products");
+    // const z = await fetch("https://dummyjson.com/products");
     console.log("weihbfjgusgf jbhlfhvufj buvufvj,k dvudjxvuszdjyivbjm uyj");
-    console.log(z);
+    // console.log(z);
   } catch (err) {
     console.log("errorrr::::::::::::::::::::");
     console.log(err);
@@ -61,8 +61,9 @@ app.post("/add-cart", async (req, res) => {
     throw new Error("Product Not Found");
   }
   try {
-    const z = await fetch("https://dummyjson.com/products");
-    console.log(z);
+    // const z = await fetch("https://dummyjson.com/products");
+    // console.log(z);
+    console.log('adsbfuhvddfz bekfjb k kdfvu k vss jk kdsk  kdfsjks v ksvd k kv k  k kjk kkvbi b jm jhh h   kv o dkkdk kkd  dkn kd kdn kkcifzxcbiuidfxz gzl .esfYU,hE Fjlvbfkxjh o;gwirf;/ esfiibdc')
   } catch (err) {
     console.log("errorrr::::::::::::::::::::");
     console.log(err);
